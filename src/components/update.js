@@ -140,7 +140,7 @@ class Modifier extends React.Component {
           onChange={this.onChange}
           name="prix"  required/><br></br>   </div> 
       
-          <input id='champ' ref={(ref) => { this.uploadInput = ref; }} type="file" name="image"/>
+          <input id='champ' ref={(ref) => { this.uploadInput = ref; }} type="file" name="image" className='bou'/>
        
           <input type="submit" class="fadeIn fourth" value="Ajouter"/>
       </form>
