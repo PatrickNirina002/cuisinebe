@@ -7,9 +7,7 @@ export const registerUser = (user, history) => dispatch => {
     axios.post('http://naivobetsy.herokuapp.com/register', user)
             .then(res =>  history.push('/login')
                 )
-            .catch(err => {
-                dispatch({
-                    type: GET_ERRORS
+            .catch(err =>console.log(err)
                 });
             });
 }
