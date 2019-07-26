@@ -141,7 +141,7 @@ class PostFrontToBack extends React.Component {
       
           <input id='champ' ref={(ref) => { this.uploadInput = ref; }} type="file" name="image"/>
        
-          <input type="submit" class="fadeIn fourth" value="Ajouter"/>
+          <input type="submit" class="fadeIn fourth" value="Ajouter" className='bou'/>
       </form>
     );
   }
